@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@400;500&family=Raleway&display=swap&family=Comfortaa:wght@500&display=swap');
+
+body {
+    background: white;
+    font-family: "Playfair+Display";
+    font-weight: 300;
+    font-size: 20px;
+    color: #2d2d2d;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h3, h4, h5, h6 {
+    font-family: "Playfair+Display";
+    font-size: 16px;
+    font-weight: 300;
+    color: #2d2d2d ;
+}
+
+h2 {
+    font-family: "Playfair+Display";
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    margin-left: 120px;
+}
+
+#registration .row {
+    font-family: "Playfair+Display";
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 120px;
+}
+
+#registration .btn {
+    margin-top: 20px;
+}
+
+#registration h1 {
+    font-family: "Playfair+Display";
+    font-size: 50px;
+    font-weight: 500;
+    color: #2d2d2d;
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+
+
+.centered {
+    text-align: center;
+}
+
+#tours .image-tours {
+    background: url(../imageForIP/img_back_tours.png);
+    margin-top: -10px;
+    margin-left: -15px;
+    min-height: 285px;
+    width: 101.6%;
+}
+
+#tours h1 {
+    font-family: "Playfair+Display";
+    font-size: 55px;
+    font-weight: 500;
+    color: white;
+    margin-left: 120px;
+    margin-top: -95px;
+}
+
+#tours .row {
+    margin-top: 100px;
+    
+}
+
+#tours .card {
+    min-height: 470px;
+}
+
+#tours h5 {
+    font-family: "Playfair+Display";
+    font-size: 20px;
+    font-weight: 500;
+    color: #2d2d2d;
+}
+
+#tours p {
+    font-size: 16px;
+    color: #2d2d2d;
+}
+
+#tours .card-body {
+    position: relative;
+}
+
+#tours .btn {
+    position: absolute;
+    bottom: 0;
+    width: 214px;
+    margin-bottom: 30px;
+}

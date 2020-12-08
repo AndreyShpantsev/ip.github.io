@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Регистрация</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel ="stylesheet" href="css/main_css.css">  
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="imageForIP\logo.jpg" width="40" height="40" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" 
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tours.html">Туры </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Отзывы</a>
+                    </li> 
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="registration.html">Регистрация<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Войти</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="registration">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                        <h1>
+                            Регистрация
+                        </h1>
+                        <form>
+                            <div class="form-group">
+                            <label for="InputEmail1">Логин</label>
+                            <input type="email" class="form-control" id="InputEmail1" placeholder="Введите e-mail">
+                            </div>
+                            <div class="form-group">
+                            <label for="InputPassword1">Пароль</label>
+                            <input type="password" class="form-control" id="InputPassword1" placeholder="Введите пароль"> 
+                            </div>
+                            <div class="form-group">
+                                <label for="InputPassword2">Подтвердите пароль</label>
+                                <input type="password" class="form-control" id="InputPassword1" placeholder="Повторите пароль" aria-describedby="confirmedPassword">
+                                <small id="confirmedPassword" class="form-text text-muted centered">Пароль должен совпадать с паролем, который Вы ввели выше </small>
+                                <button type="submit" class="btn btn-success btn-block" formaction="autorizedIndex.html" >Готово</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-4"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

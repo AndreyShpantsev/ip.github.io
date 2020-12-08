@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Моя корзина</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel ="stylesheet" href="css/main_css.css">  
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="autorizedIndex.html">
+                <img src="imageForIP\logo.jpg" width="50" height="50" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" 
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="autorizedIndex.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="autorizedTours.html">Туры</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Отзывы</a>
+                    </li> 
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="imageForIP/icon-user.jpg" width="50" height="50" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="cart.html">
+                            <img src="imageForIP/icon-cart.jpg" width="50" height="50" alt="">
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="cart">
+            <div class="container">
+                <div class="my-cart">
+                   <h1>Моя корзина</h1> 
+                </div>
+                <div class="fill-cart">
+                    <div class="row name-col">
+                        <div class="col-lg-4">
+                            <h2>Название тура</h2>
+                        </div>
+                        <div class="col-lg-2">
+                            <h2>Количество</h2>
+                        </div>
+                        <div class="col-lg-2">
+                            <h2>Сумма</h2>
+                        </div>
+                        <div class="col-lg-4">
+                            <h2>Действие</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <li class="list-group-item">Англия</li>
+                        </div>
+                        <div class="col-lg-2">
+                            <input type="number" class="form-control" id="InputNumber">
+                        </div>
+                        <div class="col-lg-2">
+                            <input type="sum" class="form-control" id="InputSum">
+                        </div>
+                        <div class="col-lg-3">
+                            <button type="button" class="btn btn-success btn-block">Оплатить</button>
+                        </div>
+                        <div class="col-lg-1 image">
+                            <button type="button" class="btn btn-danger">X</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <li class="list-group-item">Шотландия</li>
+                        </div>
+                        <div class="col-lg-2">
+                            <input type="number" class="form-control" id="InputNumber">
+                        </div>
+                        <div class="col-lg-2">
+                            <input type="sum" class="form-control" id="InputSum">
+                        </div>
+                        <div class="col-lg-3">
+                            <button type="button" class="btn btn-success btn-block">Оплатить</button>
+                        </div>
+                        <div class="col-lg-1 image">
+                            <button type="button" class="btn btn-danger">X</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <li class="list-group-item">Уэльс</li>
+                        </div>
+                        <div class="col-lg-2">
+                            <input type="number" class="form-control" id="InputNumber">
+                        </div>
+                        <div class="col-lg-2">
+                            <input type="sum" class="form-control" id="InputSum">
+                        </div>
+                        <div class="col-lg-3">
+                            <button type="button" class="btn btn-success btn-block">Оплатить</button>
+                        </div>
+                        <div class="col-lg-1 image">
+                            <button type="button" class="btn btn-danger">X</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <li class="list-group-item">Северная Ирландия</li>
+                        </div>
+                        <div class="col-lg-2">
+                            <input type="number" class="form-control" id="InputNumber">
+                        </div>
+                        <div class="col-lg-2">
+                            <input type="sum" class="form-control" id="InputSum">
+                        </div>
+                        <div class="col-lg-3">
+                            <button type="button" class="btn btn-success btn-block">Оплатить</button>
+                        </div>
+                        <div class="col-lg-1 image">
+                            <button type="button" class="btn btn-danger">X</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
